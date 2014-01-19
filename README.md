@@ -10,7 +10,7 @@ from box import BoxClient
 from StringIO import StringIO
 
 client = BoxClient('user_token')
-client.upload_file('hello.txt', StringIO('hello world'))
+client.upload_file('hello.txt', StringIO('Hello World'))
 ```
 
 
